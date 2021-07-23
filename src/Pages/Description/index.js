@@ -1,2 +1,0 @@
-const Description = () => {}
-export { Description }

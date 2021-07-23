@@ -1,2 +1,0 @@
-const Search = () => {}
-export { Search }
