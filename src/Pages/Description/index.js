@@ -1,0 +1,2 @@
+const Description = () => {}
+export { Description }
