@@ -1,11 +1,11 @@
-function Header(){
-    return (
-        <img></img>
-        <img></img>
-        <img></img>
-        <span>series</span>
-        <span>filmes</span>
-        <span>minha lista</span>;
-    )
+const Header = () => {
+    console.log("Componente Header");
 
-}
+    return (
+        <div>
+            <h1>Componente Header</h1>
+        </div>
+    );
+};
+
+export { Header };
