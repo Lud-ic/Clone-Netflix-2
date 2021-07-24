@@ -1,18 +1,16 @@
 import "./style.scss";
-import netflixlogo from "../../assets/netflix-logo.png";
-import avatar from "../../assets/steve.png";
-import search from "../../assets/search.png";
+ 
 const Header = () => {
   console.log("Componente Header");
 
   return (
     <div id="head">
       <div class="logo">
-        <img id="logo" src={netflixlogo} />
+        <img id="logo" src="../../assets/header/netflix-logo.png" alt="logo"/>
       </div>
       <div id="right">
-        <img id="search" src={search} />
-        <img id="avatar" src={avatar} />
+        <img id="search" src="../../assets/header/steve.png" alt="search"/>
+        <img id="avatar" src="../../assets/header/search.png" alt="avatar"/>
       </div>
       <ul>
         <li>Séries</li>
