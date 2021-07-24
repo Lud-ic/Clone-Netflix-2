@@ -1,13 +1,32 @@
+#fundopng {
+  width: 375px;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 #head {
-  width: 200px;
-  background-color: black;
+  width: 375px;
+  height: 100px;
+  position: absolute;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#headoptions {
+  display: flex;
+  gap: 30px;
+  vertical-align: bottom;
 }
 #logo {
-  width: 50px;
+  width: 30px;
 }
 #search {
   width: 20px;
 }
 #avatar {
-  width: 40px;
+  width: 25px;
+}
+span {
+  font-style: oblique;
+  color: rgb(0, 0, 0);
 }
