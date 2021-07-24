@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#optionsbar {
+  width: 375px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #000000dd;
+  color: aliceblue;
+  align-items: center;
+  position: absolute;
+  top: 500px;
+  padding: 5px 0;
+
+  .add-list {
+    // margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+
+    .plus-icon {
+      font-size: 25px;
+    }
+    
+  }
+
+  #watch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    cursor: pointer;
+    height: 33px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    
+    .play-icon {
+      display: flex;
+      align-items: center;
+      padding-bottom: 10px;
+      font-size: 50px;
+    }
+
+    .watch-text {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+    }
+  }
+
+  .info {
+    margin-right: 5px;
+    text-align: center;
+    cursor: pointer;
+
+    .info-icon {
+      font-size: 20px;
+    }
+  }
+}

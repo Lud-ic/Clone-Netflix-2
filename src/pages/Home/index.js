@@ -1,11 +1,16 @@
+import { Header } from "../../components/Header";
+import { OptionsPoster } from "../../components/OptionPoster";
 import { Footer } from "../../components/Footer";
-import "./style.scss"
+
+import "./style.scss";
 
 const Home = () => {
     return (
-        <body>
-           <Footer/>
-        </body>
+        <>
+            <Header/>,
+            <OptionsPoster/>,
+            <Footer/>
+        </>
     );
 };
 
