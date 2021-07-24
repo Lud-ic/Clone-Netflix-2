@@ -1,0 +1,34 @@
+* #head {
+  width: 375px;
+  height: 100px;
+  position: absolute;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000000dd;
+}
+#logo {
+  width: 40px;
+}
+#search {
+  width: 30px;
+  margin-right: 10px;
+}
+#avatar {
+  width: 30px;
+}
+#right {
+  margin-top: 7px;
+  margin-left: 245px;
+}
+ul {
+  color: white;
+  display: flex;
+  gap: 70px;
+  flex-direction: row;
+  list-style-type: none;
+}
+.logo {
+  margin-top: 7px;
+  margin-left: 5px;
+}
