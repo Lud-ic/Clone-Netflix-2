@@ -6,14 +6,15 @@ const OptionsPoster = () => {
   return (
     <div id="optionsbar">
       <div className="add-list">
-        <p>+</p>
+        <p className="plus-icon">+</p>
         <p>Minha lista</p>
       </div>
-      <div className="watch">
-        <p>🢒 Assistir </p>
-      </div>
+      <button id="watch">
+        <p className="play-icon"> 🢒 </p>
+        <p className="watch-text">Assistir</p>
+      </button>
       <div className="info">
-        <p>🛈</p>
+        <p className="info-icon">🛈</p>
         <p>Saiba mais</p>
       </div>
     </div>

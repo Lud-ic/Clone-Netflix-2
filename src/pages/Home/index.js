@@ -1,20 +1,17 @@
-// import React from "react";
-import { OptionsPoster } from "../../components/Section";
-// import { Header } from "../../components/Header";
-// import { react } from "@babel/types";
+
+import { Header } from "../../components/Header";
+import { OptionsPoster } from "../../components/OptionPoster";
 
 
 const Home = () => {
-   
-    React.render(
-    // <Header/>,
-    <OptionsPoster></OptionsPoster>,
-    )
-    
-       
-       
-    
+    return (
+        <>
+            <Header />,
+            <OptionsPoster/>,
+        </>
 
+
+    );
 };
 
 export { Home };
