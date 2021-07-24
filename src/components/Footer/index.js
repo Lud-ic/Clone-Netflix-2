@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "../Icon";
-import "./style.css"
+import "./style.scss"
 
 const main = [
     {
