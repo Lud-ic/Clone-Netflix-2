@@ -1,12 +1,14 @@
-const Icon = (props) => {
+import "./style.css";
 
-    const { name } = props;
-
+const Icon = ({ name, image }) => {
+ 
     return (
-        <div>
-            { name }
+        <div id='icon'>
+            <img src={image} alt="logo"/>
+            <p>{name}</p>
         </div>
     );
 };
+ 
 
-export { Icon };
+export default Icon;

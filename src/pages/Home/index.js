@@ -1,8 +1,11 @@
-import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
+import "./style.css"
 
 const Home = () => {
     return (
-       <Header></Header>
+        <body>
+           <Footer/>
+        </body>
     );
 };
 
