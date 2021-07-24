@@ -5,23 +5,28 @@ import "./style.scss"
 const main = [
     {
         name: "inicio",
-        src: "../../assets/home.png"
+        src_deactivate: "../../assets/home0.svg",
+        src_active: "../../assets/home1.svg",
     },
     {
         name: "search",
-        src: "../../assets/search.png"
+        src_deactivate: "../../assets/search0.svg",
+        src_active: "../../assets/search1.svg",
     },
     {
         name: "em breve",
-        src: "../../assets/later.png"
+        src_deactivate: "../../assets/later0.svg",
+        src_active: "../../assets/later1.svg",
     },
     {
         name: "downloads",
-        src: "../../assets/downloads.png"
+        src_deactivate: "../../assets/downloads0.svg",
+        src_active: "../../assets/downloads1.svg",
     },
     {
         name: "mais",
-        src: "../../assets/more.png"
+        src_deactivate: "../../assets/more0.svg",
+        src_active: "../../assets/more1.svg",
     }
 ]
 
@@ -29,7 +34,7 @@ const Footer = () => {
     
     return (
         <div id='footer'>
-            {main.map((pk) => <Icon name={pk.name} image={pk.src}/> )}
+            {main.map((option) => <Icon name={option.name} image={option.src_deactivate}/> )}
         </div>
     );
 };
