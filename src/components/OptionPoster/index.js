@@ -1,7 +1,6 @@
 import "./style.scss";
 
 const OptionsPoster = () => {
-  console.log("Componente Section Options");
 
   return (
     <div id="optionsbar">

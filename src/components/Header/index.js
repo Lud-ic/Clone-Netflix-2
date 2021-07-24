@@ -1,11 +1,9 @@
 import "./style.scss";
  
 const Header = () => {
-  console.log("Componente Header");
-
   return (
     <div id="head">
-      <div class="logo">
+      <div className="logo">
         <img id="logo" src="../../assets/header/netflix-logo.png" alt="logo"/>
       </div>
       <div id="right">
