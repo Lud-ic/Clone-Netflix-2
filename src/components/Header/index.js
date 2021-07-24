@@ -7,20 +7,18 @@ const Header = () => {
 
   return (
     <div id="head">
-      <div>
+      <div class="logo">
         <img id="logo" src={netflixlogo} />
       </div>
-      <div>
+      <div id="right">
         <img id="search" src={search} />
         <img id="avatar" src={avatar} />
       </div>
-      <div id="fundopng"></div>
-      <div id="headoptions">
-        <br />
-        <span onMouseEnter="click">Séries</span>
-        <span>Filmes</span>
-        <span>Minha lista</span>
-      </div>
+      <ul>
+        <li>Séries</li>
+        <li>Filmes</li>
+        <li>Minha lista</li>
+      </ul>
     </div>
   );
 };
