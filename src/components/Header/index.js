@@ -19,10 +19,10 @@ const Header = () => {
         </div>
       </div>
       <div class="fastrav">
-        <ul>
-          <li>Séries</li>
-          <li>Filmes</li>
-          <li>Minha lista</li>
+        <ul id="texth">
+          <li id="lih">Séries</li>
+          <li id="lih">Filmes</li>
+          <li id="lih">Minha lista</li>
         </ul>
       </div>
     </div>

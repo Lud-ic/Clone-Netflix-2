@@ -4,15 +4,37 @@
 }
 #placeholder {
   width: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 48%,
-    rgba(255, 255, 255, 0) 100%
-  );
+}
+#gradient {
+  height: 100%;
+
+  & ::after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom top, black blue);
+    // background: rgb(0, 0, 0);
+    // background: linear-gradient(
+    //   0deg,
+    //   rgba(0, 0, 0, 1) 60%,
+    //   rgba(0, 0, 0, 0.8655170686438638) 75%,
+    //   rgba(98, 98, 98, 0.9159372367110907) 100%
+    // );
+  }
+}
+.text {
+  position: absolute;
+  width: 100%;
+  bottom: 25%;
 }
 #description {
-  color: white;
   display: flex;
   flex-direction: row;
+  color: white;
+  margin-left: 5%;
+  gap: 20px;
 }

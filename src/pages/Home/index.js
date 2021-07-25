@@ -9,8 +9,7 @@ const Home = () => {
   return (
     <>
       <Header />,
-      <Poster />,
-      <OptionsPoster />,
+      <Poster />,{/* <OptionsPoster />, */}
       <Footer />
     </>
   );
