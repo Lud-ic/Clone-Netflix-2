@@ -11,7 +11,7 @@ const Router = () => {
         <Route exact path="/search" component={Search} />
         <Route exact path="/description" component={Description} />
         <Route path="*">
-          <h1>Pagina não encontrada</h1>
+          {() =>  window.open("http://localhost:3000/", "_self")}
         </Route>
       </Switch>
     </BrowserRouter>

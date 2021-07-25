@@ -1,8 +1,6 @@
 import "./style.scss";
 
 const Header = () => {
-  console.log("Componente Header");
-
   return (
     <div id="head">
       <div class="icons">
