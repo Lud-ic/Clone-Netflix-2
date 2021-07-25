@@ -1,4 +1,4 @@
-* #head {
+#head {
   // border: 1px solid red;
   // width: 200px;
   // transform: translate(-50%, -50%);
@@ -8,37 +8,45 @@
   // max-height: 100%; // Added
   // overflow-y: scroll; // Added
 
-  width: 375px;
+  width: 100%;
   height: 100px;
   position: absolute;
-  gap: 10px;
-  display: flex;
-  flex-wrap: wrap;
+
   background-color: #000000dd;
+}
+.icons {
+  margin-top: 7px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 #logo {
   width: 40px;
 }
 #search {
   width: 30px;
-  margin-right: 10px;
+  cursor: pointer;
 }
 #avatar {
   width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 #right {
-  margin-top: 7px;
-  margin-left: 245px;
+  margin-left: 10%;
 }
 ul {
   margin-left: 30px;
   color: white;
   display: flex;
-  gap: 60px;
+  gap: 20px;
   flex-direction: row;
   list-style-type: none;
 }
+li {
+  cursor: pointer;
+}
 .logo {
-  margin-top: 7px;
   margin-left: 5px;
 }
