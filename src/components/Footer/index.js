@@ -44,7 +44,14 @@ const Footer = () => {
 
     return (
         <div id='footer'>
-            {main.map((option) => <Icon name={option.name} image={ location.pathname === option.pathname ? option.src_active : option.src_deactivate }/> )}
+            {main.map((pk) => 
+                <Icon 
+                    key={pk.name}
+                    name={pk.name} 
+                    image={location.pathname === pk.pathname ? pk.src_active : pk.src_deactivate}
+                    pathname={pk.pathname}
+                />
+            )}
         </div>
     );
 };
