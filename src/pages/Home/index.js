@@ -10,10 +10,12 @@ import { Trending } from "../../components/Trending";
 const Home = () => {
     return (
         <>
-            <Header/>,
-            <OptionsPoster/>,
-            <Trending/>,
-            <Footer/>,
+            <Header />
+            <Poster />
+            <OptionsPoster />
+            <KeepWhatchingBody />
+            <Trending />
+            <Footer />
         </>
     );
 };
