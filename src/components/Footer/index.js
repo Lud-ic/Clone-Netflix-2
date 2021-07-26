@@ -45,9 +45,9 @@ const Footer = () => {
     return (
         <div id='footer'>
             {main.map((pk) => 
-                <Icon 
+                <Icon
                     key={pk.name}
-                    name={pk.name} 
+                    name={pk.name}
                     image={location.pathname === pk.pathname ? pk.src_active : pk.src_deactivate}
                     pathname={pk.pathname}
                 />

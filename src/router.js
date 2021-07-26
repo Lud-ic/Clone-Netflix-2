@@ -11,7 +11,7 @@ const Router = () => {
         <Route exact path="/search" component={Search} />
         <Route exact path="/description/:id" component={Description} />
         <Route path="*">
-          {() =>  window.open("http://localhost:3000/", "_self")}
+          {() =>  window.open(process.env.REACT_APP_HOST, "_self")}
         </Route>
       </Switch>
     </BrowserRouter>
