@@ -1,0 +1,31 @@
+#trending {
+ height: 230px;
+ margin: 0 0 0 5px;
+ 
+
+  .trending-text {
+    color: #B3B3B3;
+    font-family: SF Pro Text Bold;
+    font-size: 13.25px;
+
+    p {
+      margin: 10px 0;
+    }
+
+  }
+
+  #trending-posters {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 5px;
+
+
+    img {
+
+      width: 105px;
+    }
+
+
+  }
+}
