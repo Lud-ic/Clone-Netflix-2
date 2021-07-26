@@ -8,6 +8,7 @@ import "./style.scss";
 import { Trending } from "../../components/Trending";
 
 const Home = () => {
+
     return (
         <>
             <Header />

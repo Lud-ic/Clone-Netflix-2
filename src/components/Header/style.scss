@@ -46,15 +46,15 @@
   display: flex;
   justify-items: center;
 }
-ul {
-  margin-left: 12%;
+#texth {
   color: white;
   display: flex;
-  gap: 50px;
   flex-direction: row;
+  gap: 50px;
   list-style-type: none;
+  margin: 0;
 }
-li {
+#lih {
   margin-top: 10px;
   cursor: pointer;
 }
