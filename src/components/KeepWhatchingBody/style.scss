@@ -5,15 +5,10 @@
 
 #KeepWhatchingBody {
     background: none;
-    // background: #000;
     width: 100%;
-    height: 200px;
-
-    position: absolute;     // warning ==> change
-    bottom: 200px;          // warning ==> change
-
+    height: 300px;
+ 
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
 }
 
@@ -24,4 +19,6 @@
     font-family: SF Pro Text Bold;
     padding-left: 5px; 
     font-size: 13.25px;
+
+    margin: 10px 0px;
 }
