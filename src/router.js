@@ -9,7 +9,7 @@ const Router = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/search" component={Search} />
-        <Route exact path="/description" component={Description} />
+        <Route exact path="/description/:id" component={Description} />
         <Route path="*">
           {() =>  window.open("http://localhost:3000/", "_self")}
         </Route>

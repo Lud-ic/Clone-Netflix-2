@@ -9,11 +9,11 @@ const OptionsPoster = () => {
         <p>Minha lista</p>
       </div>
       <button id="watch">
-        <p className="play-icon"> 🢒 </p>
+        <img src="../../assets/optionPoster/play.png" alt="play"/>
         <p className="watch-text">Assistir</p>
       </button>
       <div className="info">
-        <p className="info-icon">🛈</p>
+        <img src="../../assets/optionPoster/information.png" alt="optionPoster"/>
         <p>Saiba mais</p>
       </div>
     </div>

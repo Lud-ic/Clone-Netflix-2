@@ -3,15 +3,10 @@ import "./style.scss";
 const Poster = () => {
   return (
     <div id="poster">
-      <div id="gradient">
-        <img id="placeholder" src="../../assets/poster/placeholder.jpg" />;
-      </div>
-      <div class="text">
+      <img id="placeholder" src="../../assets/poster/placeholder.jpg" alt="placeholder"/>
+      <div className="text">
         <ul id="description">
-          <li>Crimes</li>
-          <li>Britânico</li>
-          <li>Obras de época</li>
-          <li>Drama</li>
+          <li>Crimes • Britânico • Obras de época • Drama</li>
         </ul>
       </div>
     </div>
