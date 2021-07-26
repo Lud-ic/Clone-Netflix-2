@@ -1,11 +1,12 @@
+import { useHistory } from "react-router-dom";
 import "./style.scss";
 
 const Icon = ({ name, image, pathname }) => {
  
-    const base_url = "http://localhost:3000"
+    const location = useHistory();
 
     return (
-        <div id='icon' onClick={() =>  window.open(`${base_url}${pathname}`, "_self")}>
+        <div id='icon' onClick={() => location.push(`${pathname}`)}>
             <img src={image} alt="logo"/>
             <p>{name}</p>
         </div>
