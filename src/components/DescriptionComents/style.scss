@@ -1,0 +1,72 @@
+#commentaries {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(25, 25, 25, 1);
+  border-radius: 10px;
+  width: 351px;
+  height: 107px;
+}
+#evcom {
+  margin-left: 21px;
+  margin-top: 12px;
+}
+#user {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 30px;
+}
+#uname {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(235, 236, 236, 1);
+}
+#uavatar {
+  width: 23px;
+  height: 23px;
+}
+#areac {
+  display: flex;
+  flex-direction: row;
+}
+.tcoment {
+  margin-top: 5px;
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(235, 236, 236, 1);
+}
+.ard {
+  margin-top: -10px;
+  display: flex;
+  gap: 5px;
+}
+.rating {
+  color: rgba(235, 236, 236, 1);
+  display: flex;
+  flex-direction: column;
+  margin-right: 13px;
+  margin-bottom: 17px;
+}
+.crate {
+  font-weight: 300;
+  font-size: 10px;
+  color: rgba(235, 236, 236, 1);
+}
+#rate {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(235, 236, 236, 1);
+}
+.sratediv {
+  display: flex;
+  margin-top: 18px;
+}
+#srate {
+  width: 13px;
+  height: 13px;
+}
+#halfc {
+  display: flex;
+  flex-direction: row;
+}
