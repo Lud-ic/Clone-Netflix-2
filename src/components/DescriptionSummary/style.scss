@@ -1,0 +1,52 @@
+@font-face {
+  font-family: SF Pro Text-Light;
+  src: url("../../fonts/SF_Pro_Text/SF-Pro-Text-Light.otf");
+}
+#summary {
+  color: white;
+  margin: 0 10px ;
+  // font-weight: 0;
+  font-size: 12px;
+  top: 0px;
+  font-family: SF Pro Text-Light;
+  
+  h3{
+    margin-top: 0px;
+    margin-bottom: 6px;
+  }
+
+  .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+
+    .line {
+      height: 2px;
+        background-color: gray;
+        z-index: -1;
+        width: 72%;
+        margin-top: 5px;
+      .grey-line {
+        
+      }
+      
+      .red-line {
+        height: 2px;
+        background-color: red;
+        width: 10%;
+      }
+    }
+    .remaining-time {
+      font-size: 8px;
+      display: flex;
+      align-items: flex-end;
+      color: #7D7D7D;
+    }
+  }
+   .info {
+    font-size: 10px;
+    color:#7D7D7D;
+  }
+}

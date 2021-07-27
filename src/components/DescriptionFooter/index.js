@@ -28,7 +28,7 @@ const DescriptionFooter = () => {
           <hr className="episode" />
         </div>
         <ul>
-          <li>EPISÓDIOS</li>
+          <li className="corrently">EPISÓDIOS</li>
           <li>TRAILERS E MAIS </li>
           <li>TÍTULOS SEMB </li>
         </ul>

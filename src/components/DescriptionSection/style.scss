@@ -24,4 +24,36 @@
     justify-content: space-evenly;
     align-items: center;
     color: #FFF;
+
+    .relevance {
+        color:rgb(17, 170, 17);
+    }
+
+    .year {
+        color: #c5bfbf;
+
+    }
+
+    .age-recomended {
+        background-color: red;
+        width: 19px;
+        height: 18px;
+        border-radius: 5px;
+        
+    }
+
+    .seasons {
+        color: #c5bfbf;
+    }
+
+    .quality {
+        // background-color: red;
+        border-style: solid;
+        border-width: 1.5px;
+        width: 22px;
+        height: 18px;
+        border-radius: 3px;
+        color: #c5bfbf;
+    }
+    
 }

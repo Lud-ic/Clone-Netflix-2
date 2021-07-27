@@ -10,6 +10,7 @@ import { fetchSingleShow } from "../../services";
 import { useEffect, useState } from "react";
 
 import { useParams } from "react-router-dom";
+import { Footer } from "../../components/Footer";
 
 const Description = () => {
 
@@ -28,9 +29,10 @@ const Description = () => {
     return (
         <>
             <DescriptionSection response={response}/>
-            <DescriptionSummary/>
+            <DescriptionSummary response={response}/>
             <DescriptionsComents/>
             <DescriptionFooter/>
+            <Footer/>
             
             {response && (
                 <div id="description-background" style={{

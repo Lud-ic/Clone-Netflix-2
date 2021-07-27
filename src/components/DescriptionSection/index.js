@@ -3,7 +3,7 @@ import { Button } from "../Button";
 import "./style.scss"
 
 const DescriptionSection = ({ response }) => {
- 
+
     return (
         <>
             {response && (
@@ -13,17 +13,19 @@ const DescriptionSection = ({ response }) => {
                         width: "120px",
                         height: "170px",
                         backgroundSize: "120px",
-                    }}/>
+                    }} />
                     <div id="DescriptionSectionDetails">
-                        <h5>95% Relevante</h5>
-                        <h5>2019</h5>
-                        <h5>18</h5>
-                        <h5>4 Temporadas</h5>
-                        <h5>HD</h5>
+                        <h5 className="relevance">95% Relevante</h5>
+                        <h5 className="year">2019</h5>
+                        <h5 className="age-recomended">18</h5>
+                        <h5 className="seasons">4 Temporadas</h5>
+                        <div ></div>
+                        <h5 className="quality">HD</h5>
+
                     </div>
-                    <Button 
+                    <Button
                         color={"#FF0000"}
-                        width="95%" 
+                        width="95%"
                         height="35px"
                         radius={true}
                         text={"Continuar"}
