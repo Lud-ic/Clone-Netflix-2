@@ -1,9 +1,7 @@
 import "./style.scss";
  
 const KeepWhatching = ({ pk, percentage, image, imagePlay, imageInfo }) => {
-
-    const base_url = "http://localhost:3000"
-
+ 
     return (
         <>
             <div id="KeepWhatching" style={{backgroundImage: `url("${image}")`}}>
@@ -18,7 +16,7 @@ const KeepWhatching = ({ pk, percentage, image, imagePlay, imageInfo }) => {
                     <div 
                         style={{backgroundImage: `url("${imageInfo}")`}}
                         onClick={() => {
-                            window.open(`${base_url}/description/${pk}`, "_self")
+                            window.open(`${process.env.REACT_APP_HOST}/description/${pk}`, "_self")
                         }}/>      
                 </div>
             </div>
