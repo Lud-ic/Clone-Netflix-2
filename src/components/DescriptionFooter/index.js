@@ -24,7 +24,7 @@ const DescriptionFooter = () => {
         </div>
       </div>
       <div id="footerdown">
-        <div class="container-line">
+        <div className="container-line">
           <hr className="episode" />
         </div>
         <ul>
