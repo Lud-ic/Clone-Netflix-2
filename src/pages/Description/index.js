@@ -3,7 +3,6 @@ import { DescriptionFooter } from "../../components/DescriptionFooter";
 import { DescriptionSection } from "../../components/DescriptionSection";
 import { DescriptionSummary } from "../../components/DescriptionSummary";
 
-feature/description_section
 import "./style.scss"
 
 import { fetchSingleShow } from "../../services";
@@ -30,6 +29,7 @@ const Description = () => {
         <>
             <DescriptionSection response={response}/>
             <DescriptionSummary/>
+            <DescriptionsComents/>
             <DescriptionFooter/>
             
             {response && (

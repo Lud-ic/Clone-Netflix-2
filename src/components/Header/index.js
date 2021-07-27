@@ -12,15 +12,15 @@ const Header = () => {
           />
         </div>
         <div id="right">
-          <img id="search" src="../../assets/header/search.svg" alt="search" />
+          <img id="avatar" src="../../assets/header/search1.svg" alt="searching" />
           <img id="avatar" src="../../assets/header/steve.png" alt="avatar" />
         </div>
       </div>
       <div className="fastrav">
-        <ul id="texth">
-          <li id="lih">Séries</li>
-          <li id="lih">Filmes</li>
-          <li id="lih">Minha lista</li>
+        <ul>
+          <li>Séries</li>
+          <li>Filmes</li>
+          <li>Minha lista</li>
         </ul>
       </div>
     </div>

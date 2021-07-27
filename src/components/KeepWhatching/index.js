@@ -1,7 +1,7 @@
 import "./style.scss";
  
 const KeepWhatching = ({ pk, percentage, image, imagePlay, imageInfo }) => {
- 
+
     return (
         <>
             <div id="KeepWhatching" style={{backgroundImage: `url("${image}")`}}>

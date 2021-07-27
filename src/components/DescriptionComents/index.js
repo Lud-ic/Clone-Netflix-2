@@ -6,7 +6,7 @@ const DescriptionsComents = () => {
       <div id="commentaries">
         <div id="evcom">
           <div id="user">
-            <img id="uavatar" src="../../assets/commentaries/racoon.jpg" />
+            <img id="uavatar" src="../../assets/commentaries/racoon.jpg" alt="uavatar" />
             <span id="uname">rocket</span>
           </div>
           <div id="areac">
@@ -16,7 +16,7 @@ const DescriptionsComents = () => {
             </span>
             <div className="ard">
               <div className="sratediv">
-                <img id="srate" src="../../assets/commentaries/Star.svg" />
+                <img id="srate" src="../../assets/commentaries/Star.svg" alt="srate"/>
               </div>
               <div className="rating">
                 <span className="crate">Nota</span>

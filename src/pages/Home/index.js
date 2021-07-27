@@ -4,6 +4,7 @@ import { OptionsPoster } from "../../components/OptionPoster";
 import { Footer } from "../../components/Footer";
 import { KeepWhatchingBody } from "../../components/KeepWhatchingBody";
 import { Trending } from "../../components/Trending";
+import { Search } from "../../components/Search";
 
 import "./style.scss";
 
@@ -31,6 +32,7 @@ const Home = () => {
             <KeepWhatchingBody response={response}/>
             <Trending response={response}/>
             <Footer/>
+            <Search/>
         </>
     );
 };
