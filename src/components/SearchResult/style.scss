@@ -1,36 +1,41 @@
-#sarch-result {
-    background-color: #585858;
+#search-result {
+    background-color: #221f1f;
     width: 100%;
     height: 60px;
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
+    margin: 2.5px 0px;
 
-    #sarch-image {
-        background-color: #252525;
+    #search-image {
+        border-radius: 5px;
+        // background-color: #252525;
         width: 30%;
         height: 100%;
+        background-repeat: no-repeat;
     }
 
-    #sarch-details {
+    #search-details {
         background-color: #221f1f;
         width: 70%;
         height: 100%;
 
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         flex-direction: row;
 
-        #sarch-details-name {
-            color: #FFF;
+        #search-details-name {
+            width: 70%;
             max-width: 70%;
+
+            color: #FFF; 
             font-size: 14px;
         }
 
-        #sarch-details-play {
+        #search-details-play {
             // background-color: chartreuse;
             width: 30px;
             height: 30px;

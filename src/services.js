@@ -10,4 +10,10 @@ async function fetchSingleShow(id) {
   return data;
 }
 
-export { fetchShows, fetchSingleShow }
+async function fetchSingleShowName(name) {
+  const response = await fetch(`https://api.tvmaze.com/search/shows?q=${name}`);
+  const data = await response.json();
+  return data;
+}
+
+export { fetchShows, fetchSingleShow, fetchSingleShowName }

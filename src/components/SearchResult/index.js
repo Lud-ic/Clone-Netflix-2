@@ -1,23 +1,23 @@
 import "./style.scss";
 
-const SearchResult = ({ name, image, data }) => {
+const SearchResult = ({ name, image }) => {
 
-    console.log(data)
-
+    const styled = {
+        backgroundImage: image ? `url(${image})` : `url("../../assets/SearchResult/background-default.jpg")`,
+        backgroundSize: image ? "100%" : "120%"
+    }
+ 
     return (
         <>
-            <div id="sarch-result">
-                <div id="sarch-image" style={{
-                        backgroundImage: `url(${image})`
-                }}></div>
-                <div id="sarch-details">
-                    <div id="sarch-details-name">
+            <div id="search-result">
+                <div id="search-image" style={styled}/> 
+                <div id="search-details">
+                    <div id="search-details-name">
                         { name }
                     </div>
-                    <div id="sarch-details-play" style={{
+                    <div id="search-details-play" style={{
                         backgroundImage: `url(${"../../assets/SearchResult/play.png"})`
-                    }}>
-                    </div>
+                    }}/>
                 </div>
             </div>
         </>

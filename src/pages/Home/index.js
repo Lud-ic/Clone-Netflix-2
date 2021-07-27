@@ -27,7 +27,13 @@ const Home = () => {
     return (
         <>
             <Header/>
-            <Poster/>
+
+            {response && (
+                <div id="home">
+                    <Poster response={response}/>
+                </div>
+            )}
+
             <OptionsPoster/>
             <KeepWhatchingBody response={response}/>
             <Trending response={response}/>
