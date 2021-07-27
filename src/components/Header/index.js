@@ -12,7 +12,7 @@ const Header = () => {
           />
         </div>
         <div id="right">
-          <img id="avatar" src="../../assets/header/search1.svg" alt="searching" />
+          {/* <img id="avatar" src="../../assets/header/search1.svg" alt="searching" /> */}
           <img id="avatar" src="../../assets/header/steve.png" alt="avatar" />
         </div>
       </div>

@@ -1,36 +1,26 @@
 #poster {
-  width: 100%;
+      width: 100%;
+      height: 50px;
 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-#placeholder {
-  width: 100%;
-}
-.text {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 4%, rgba(0, 0, 0, 0.274) 30%, rgba(0,0,0,1) 72%);
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 20%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#description {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-
-  color: white;
-  padding: 0;
-}
-
-#description li {
-  font-size: 10px;
-  list-style: none;
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        flex-direction: row;
+        padding: 0;
+ 
+        li {
+            color: #FFF;
+            font-size: 13px;
+        }
+    }
 }
