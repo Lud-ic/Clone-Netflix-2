@@ -5,9 +5,10 @@
 
 #KeepWhatching {
     // background: #FD7;
-    min-width: var(--width-keep-whatching) !important;
+    min-width: var(--width-keep-whatching);
     width: var(--width-keep-whatching);
     height: var(--height-keep-whatching);
+    background-size: var(--width-keep-whatching);
 
     margin: 0 0 0 5px;
 
