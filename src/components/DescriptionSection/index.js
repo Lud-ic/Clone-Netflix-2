@@ -2,14 +2,14 @@ import { Button } from "../Button";
 
 import "./style.scss"
 
-const DescriptionSection = ({ response }) => {
+const DescriptionSection = ({ data }) => {
 
     return (
         <>
-            {response && (
+            {data && (
                 <div id="DescriptionSection">
                     <div style={{
-                        backgroundImage: `url(${response?.image.original})`,
+                        backgroundImage: `url(${data?.image.original})`,
                         width: "120px",
                         height: "170px",
                         backgroundSize: "120px",

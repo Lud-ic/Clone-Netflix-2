@@ -16,27 +16,27 @@ const Description = () => {
 
     const { id } = useParams();
 
-    const [response, getResponse] = useState(undefined);
+    const [data, setResponse] = useState(undefined);
     
     useEffect(() => { 
         const fetchAsync = async () => { 
-            const data = await fetchSingleShow(id); 
-            getResponse(data);
+            const response = await fetchSingleShow(id); 
+            setResponse(response);
         }
         fetchAsync();
     }, [id]);
 
     return (
         <>
-            <DescriptionSection response={response}/>
-            <DescriptionSummary response={response}/>
+            <DescriptionSection data={data}/>
+            <DescriptionSummary data={data}/>
             <DescriptionsComents/>
             <DescriptionFooter/>
             <Footer/>
             
-            {response && (
+            {data && (
                 <div id="description-background" style={{
-                    backgroundImage: `url(${response.image.original})`
+                    backgroundImage: `url(${data.image.original})`
                 }}/>
             )}
         </>

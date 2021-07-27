@@ -1,9 +1,12 @@
+import { useHistory } from "react-router-dom";
 import "./style.scss";
  
 const KeepWhatching = ({ pk, percentage, image, imagePlay, imageInfo }) => {
+const history = useHistory();
 
-    return (
-        <>
+return (
+
+    <>
             <div id="KeepWhatching" style={{backgroundImage: `url("${image}")`}}>
                 <div id="KeepWhatchingPlayBackground">
                     <div id="KeepWhatchingPlay" style={{backgroundImage: `url("${imagePlay}")`}}/>
@@ -16,11 +19,12 @@ const KeepWhatching = ({ pk, percentage, image, imagePlay, imageInfo }) => {
                     <div 
                         style={{backgroundImage: `url("${imageInfo}")`}}
                         onClick={() => {
-                            window.open(`${process.env.REACT_APP_HOST}/description/${pk}`, "_self")
+                            history.push(`/description/${pk}`)
                         }}/>      
                 </div>
             </div>
         </>
+    
     );
 };
 

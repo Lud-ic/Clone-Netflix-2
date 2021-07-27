@@ -4,41 +4,42 @@ import { OptionsPoster } from "../../components/OptionPoster";
 import { Footer } from "../../components/Footer";
 import { KeepWhatchingBody } from "../../components/KeepWhatchingBody";
 import { Trending } from "../../components/Trending";
-import { Search } from "../../components/Search";
 
 import "./style.scss";
 
 import { fetchShows } from "../../services";
 
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+    const [data, setResponse] = useState(undefined);
 
-    const [response, getResponse] = useState(undefined);
-    
-    useEffect(() => { 
-        const fetchAsync = async () => { 
-            const data = await fetchShows(); 
-            getResponse(data);
-        }
+    useEffect(() => {
+        const fetchAsync = async () => {
+            const response = await fetchShows();
+            setResponse(response);
+        };
         fetchAsync();
-    }, [])
-    const trending = response ? response.slice(10, 20) : undefined
+    }, []);
+    const trending = data ? data.slice(10, 20) : undefined;
+    const location = useLocation();
+    const hide = location.pathname === "/";
+
     return (
         <>
-            <Header/>
+            <Header />
 
-            {response && (
+            {data && (
                 <div id="home">
-                    <Poster response={response}/>
+                    <Poster data={data} />
                 </div>
             )}
 
-            <OptionsPoster/>
-            <KeepWhatchingBody response={response}/>
-            <Trending data={trending}/>
-            <Footer/>
-            <Search/>
+            <OptionsPoster />
+            <KeepWhatchingBody data={data} hide={hide} />
+            <Trending data={trending} hide={hide} />
+            <Footer />
         </>
     );
 };

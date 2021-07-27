@@ -2,10 +2,10 @@ import "./style.scss";
 
 import { useEffect } from "react";
 
-const Poster = ({ response }) => {
+const Poster = ({ data }) => {
 
     const DATA_SIZE_ARRAY = 240;
-    const random = response[Math.floor(Math.random() * DATA_SIZE_ARRAY)]
+    const random = data[Math.floor(Math.random() * DATA_SIZE_ARRAY)]
 
     const genresDetails = random.genres;
  

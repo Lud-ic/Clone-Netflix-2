@@ -2,17 +2,17 @@ import { KeepWhatching } from "../KeepWhatching";
 
 import "./style.scss";
 
-const KeepWhatchingBody = ({ response }) => {
- 
+const KeepWhatchingBody = ({ data, hide }) => {
+
     return (
         <>
-            {response && (
+            {data && hide && (
                 <div id="KeepWhatchingBody">
                     <div id="KeepWhatchingBodyText">
                         Continuar assistindo como PEDRO...
                     </div>
                     <div id="KeepWhatchingBodyChild">
-                        {response.map((pk) => 
+                        {data.map((pk) => 
                             <KeepWhatching 
                                 key={`KeepWhatching${pk.id}`}
                                 pk={pk.id} 
