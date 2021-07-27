@@ -23,7 +23,7 @@ const Home = () => {
         }
         fetchAsync();
     }, [])
-
+    const trending = response ? response.slice(10, 20) : undefined
     return (
         <>
             <Header/>
@@ -36,7 +36,7 @@ const Home = () => {
 
             <OptionsPoster/>
             <KeepWhatchingBody response={response}/>
-            <Trending response={response}/>
+            <Trending data={trending}/>
             <Footer/>
             <Search/>
         </>
