@@ -5,7 +5,7 @@ import { SearchResult } from "../../components/SearchResult";
 import { useHistory } from "react-router-dom";
 
 const Search = () => {
-    let [InputValue, SetInputValue] = useState(undefined);
+    const [InputValue, SetInputValue] = useState(undefined);
     const [response, SetResponse] = useState(InputValue);
     const history = useHistory();
 
