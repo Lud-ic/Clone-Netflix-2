@@ -3,6 +3,8 @@ import { Home } from "./pages/Home";
 import { Description } from "./pages/Description";
 import { Search } from "./pages/Search";
 
+import { Redirect } from "react-router";
+
 const Router = () => {
     return (
         <BrowserRouter>
@@ -11,7 +13,7 @@ const Router = () => {
                 <Route exact path="/description/:id" component={Description} />
                 <Route exact path="/search" component={Search} />
                 <Route path="*">
-                    {() => window.open(process.env.REACT_APP_HOST, "_self")}
+                    <Redirect to="/"/>
                 </Route>
             </Switch>
         </BrowserRouter>

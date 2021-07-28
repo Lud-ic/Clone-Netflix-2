@@ -1,6 +1,11 @@
 import "./style.scss";
 
+import { useHistory } from "react-router";
+
 const Header = () => {
+
+  const history = useHistory();
+
   return (
     <div id="head">
       <div className="icons">
@@ -9,10 +14,10 @@ const Header = () => {
             id="logo"
             src="../../assets/header/netflix-logo.png"
             alt="logo"
+            onClick={() => history.push("/")}
           />
         </div>
         <div id="right">
-          {/* <img id="avatar" src="../../assets/header/search1.svg" alt="searching" /> */}
           <img id="avatar" src="../../assets/header/steve.png" alt="avatar" />
         </div>
       </div>
