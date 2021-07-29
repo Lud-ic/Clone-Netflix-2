@@ -1,7 +1,7 @@
 <h1 align="center">
-    Flix
+    Netflix Clone
 </h1>
-  <h3 align="center"> Project developed as part of the Dev Challenge.</h3>
+  <h3 align="center"> Project developed as part of the Web Development Course by Estartando Devs.</h3>
 <br>
 
 # 🚀 Technologies
@@ -29,13 +29,14 @@ This project aims to list the information of a Github user.
       <td><img width="240" alt="search screen after type search" src="public/assets/Readme/Search-search.PNG"></td>
     </tr> 
   </table>
+  
 ## 👋 How to use
 
 You need to use Nodejs.
 
 Clone the project
 
-` $ git clone https://github.com/ramonxm/github-search.git`
+` $ git clone https://github.com/Lud-ic/Clone-Netflix-2.git`
 
 Install dependencies
 
