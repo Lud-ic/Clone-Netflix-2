@@ -13,6 +13,22 @@ This project aims to list the information of a Github user.
 - [node-sass](https://www.npmjs.com/package/node-sass)
 - [VS Code](vscode) with [EditorConfig](vceditconfig) and [ESLint](vceslint)
 
+## Telas
+
+  <table>
+    <tr>
+      <td><img width="240" alt="home screen" src="public/assets/Readme/Home-top.PNG"></td>
+      <td><img width="240" alt="home screen" src="public/assets/Readme/Home-bottom.PNG"></td>
+    </tr>
+    <tr>
+      <td><img width="240" alt="description screen" src="public/assets/Readme/Description-top.PNG"></td>
+      <td><img width="240" alt="description screen" src="public/assets/Readme/Description-bottom.PNG"></td>
+    </tr> 
+    <tr>
+      <td><img width="240" alt="search screen before type search" src="public/assets/Readme/Search.PNG"></td>
+      <td><img width="240" alt="search screen after type search" src="public/assets/Readme/Search-search.PNG"></td>
+    </tr> 
+  </table>
 ## 👋 How to use
 
 You need to use Nodejs.
