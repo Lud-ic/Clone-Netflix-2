@@ -51,4 +51,7 @@ N/A
 
 ---
 
-Made with by Equipe 2 Estartando Devs 👋 [Get in touch!](https://estartandodevs.com.br/)
+Made by Equipe 2 - Estartando Devs 👋 [Get in touch!](https://estartandodevs.com.br/)
+- [Henrique Calenzo](https://github.com/henriquecalenzoo)
+- [Ludmila Magalhães](https://github.com/Lud-ic)
+- [Charles Carris](https://github.com/Charles-504)
