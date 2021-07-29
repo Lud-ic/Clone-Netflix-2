@@ -25,7 +25,7 @@ const Home = () => {
     const trending = data ? data.slice(10, 20) : undefined;
     const location = useLocation();
     const hide = location.pathname === "/";
-    console.log(">>>>>>>>>>>>>>>>>>>> Projeto realizado por Henrique Calenzo, Ludmila Magalhães e Charles Carris, durante o curso do Estartando Devs <<<<<<<<<<<<<<<<<<<<")
+    console.log(">>>>>>>>>>>>>>>>>>>> Projeto Clone do Aplicativo da Netflix, desenvolvido por: Henrique Calenzo, Ludmila Magalhães e Charles Carris, durante o curso de Desenvolvimento Web do Estartando Devs <<<<<<<<<<<<<<<<<<<<")
     return (
         <>
             <Header />
