@@ -13,7 +13,7 @@ This project aims to list the information of a Github user.
 - [node-sass](https://www.npmjs.com/package/node-sass)
 - [VS Code](vscode) with [EditorConfig](vceditconfig) and [ESLint](vceslint)
 
-## Telas
+## Screens
 
   <table>
     <tr>
