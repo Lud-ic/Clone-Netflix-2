@@ -22,7 +22,7 @@ const Home = () => {
         };
         fetchAsync();
     }, []);
-    const trending = data ? data.slice(10, 20) : undefined;
+    const trending = data ? data.slice(50, 75) : undefined;
     const location = useLocation();
     const hide = location.pathname === "/";
     console.log(">>>>>>>>>>>>>>>>>>>> Projeto Clone do Aplicativo da Netflix, desenvolvido por: Henrique Calenzo, Ludmila Magalhães e Charles Carris, durante o curso de Desenvolvimento Web do Estartando Devs <<<<<<<<<<<<<<<<<<<<")
